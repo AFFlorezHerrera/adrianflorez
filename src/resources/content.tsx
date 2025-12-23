@@ -150,7 +150,6 @@ y el uso de IA para optimizar análisis y procesos.
         ],
       },
     ],
-  },
 };
 
 const work: Work = {
