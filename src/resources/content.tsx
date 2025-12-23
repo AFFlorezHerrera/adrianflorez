@@ -65,10 +65,10 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Adrian</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Proyectos
         </Text>
       </Row>
     ),
@@ -171,7 +171,7 @@ const about: About = {
         tags: [
           {
             name: "Phyton",
-            icon: "figma",
+            icon: "phyton",
           },
         ],
         // optional: leave the array empty if you don't want to display images
