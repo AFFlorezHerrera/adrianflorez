@@ -83,8 +83,8 @@ const home: Home = {
 
 const about: About = {
   path: "/about",
-  label: "About",
-  title: `About – ${person.name}`,
+  label: "Sobre mi",
+  title: `${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -99,31 +99,27 @@ const about: About = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Introducción",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Adrian Flórez es un ingeniero Agrónomo y analista de datos, con experiencia en producción, investigación aplicada y gestión de proyectos, con partición activa en grupos de investigación de Colciencias avalados por la Universidad Nacional de Colombia, lo que ha permitido fortalecer el pensamiento crítico, la rigurosidad científica y la capacidad de trabajo en equipo multidisciplinario., Me apasiona la investigación, el análisis, evaluación, organización e implementación de proyectos con impacto en la sociedad, la economía y las comunidades; ademas poseo buena capacidad para las relaciones públicas y la comunicación.  
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Experiencia de trabajo",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Reforestadora DAGES",
+        timeframe: "02/2025 - Presente",
+        role: "Ingeniero analista de datos",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            análisis de inventarios forestales a gran escala, construyendo modelos de datos y procesos de depuración que permitieron identificar zonas con 40% menos desarrollo productivo.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Analizar y gestionar datos para la toma de decisiones en la plantación.
           </>,
         ],
         images: [
@@ -137,17 +133,12 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Universidad Nacional de Colombia",
+        timeframe: "2019 - Presente",
+        role: "Ingeniero investigador",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Investigador de cultivos enfocado en análisis de datos, pensamiento crítico y trabajo colaborativo, transformando información experimental en insights accionables para la toma de decisiones y mejora continua
           </>,
         ],
         images: [],
@@ -156,30 +147,30 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Estudios",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Universidad Nacional de Colombia",
+        description: <>Ingenieria agronómica.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Soy Henry",
+        description: <>Analista de datos</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Habilidades técnicas",
     skills: [
       {
-        title: "Figma",
+        title: "Phyton",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Análisis, limpieza y automatización de datos con Python usando pandas, numpy y visualización para decisiones informadas.</>
         ),
         tags: [
           {
-            name: "Figma",
+            name: "Phyton",
             icon: "figma",
           },
         ],
