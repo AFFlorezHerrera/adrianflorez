@@ -191,22 +191,14 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "PowerBI",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Diseño de dashboards interactivos con modelado de datos, DAX, visualizaciones claras y transformación de datos con Powerquery.</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
+            name: "PowerBi",
+            icon: "powerbi",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -218,6 +210,20 @@ const about: About = {
             height: 9,
           },
         ],
+      },
+      {
+        title: "SQL",
+        description: (
+          <>Consulta, transformación y análisis de datos para generar insights confiables y accionables.</>
+        ),
+        tags: [
+          {
+            name: "SQL",
+            icon: "sql",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
