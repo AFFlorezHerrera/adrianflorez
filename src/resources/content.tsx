@@ -232,26 +232,26 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
+  title: "Analizando datos para convertirlos en desiciones...",
+  description: `Mira lo que ${person.name} ha hecho recientemente`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
 
 const work: Work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  label: "Proyectos",
+  title: `Projectos – ${person.name}`,
+  description: `Proyectos de análisis de datos por ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery: Gallery = {
   path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
+  label: "Galería",
+  title: `Imagenes de proyectos – ${person.name}`,
+  description: `Colección por ${person.name}`,
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
