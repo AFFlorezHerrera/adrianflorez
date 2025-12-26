@@ -95,7 +95,7 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "calendly.com/adrianflorez",
   },
   intro: {
     display: true,
