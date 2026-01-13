@@ -14,7 +14,7 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Mantente en contacto conmigo para conocer mas de mi trabajo</>,
+  title: <>Manten el contacto conmigo para conocer mas de mi trabajo</>,
   description: <>Suscribete a mi red de contactos para estar actualizado</>,
 };
 
