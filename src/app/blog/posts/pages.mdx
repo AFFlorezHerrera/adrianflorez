@@ -1,56 +1,52 @@
 ---
-title: "Enable or disable pages for your portfolio"
-summary: "Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings."
+title: "Logixia: Tu Brújula en el Océano de Datos"
+summary: "**Logixia** es una empresa especializada en el desarrollo de proyectos basados en datos. Nuestra misión es guiar a organizaciones a través del complejo océano de información, convirtiendo datos dispersos en conocimiento accionable.  
+Con un enfoque multidisciplinario, combinamos ciencia de datos, visualización avanzada y automatización para impulsar decisiones inteligentes en sectores como salud, agroindustria, logística, educación y más."
 image: "/images/gallery/horizontal-2.jpg"
-publishedAt: "2025-04-22"
-tag: "Magic Portfolio"
+publishedAt: "2026-01-19"
+tag: "Logixia"
 ---
 
-## Enable or disable pages
+## 🛠️ ¿Qué hacemos?
 
-Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+| 💡 Servicio | 🧩 Descripción | 🎯 Aplicaciones |
+|-------------|----------------|----------------|
+| Análisis exploratorio (EDA) | Limpieza, transformación y visualización de datos | Diagnóstico de procesos, auditorías, estudios de mercado |
+| Dashboards interactivos | Power BI, Tableau, Streamlit | Monitoreo en tiempo real, KPIs, control operativo |
+| Modelos predictivos | Machine Learning, regresión, clasificación | Proyecciones de demanda, riesgo, mantenimiento |
+| Automatización de reportes | Python, Excel, APIs | Reducción de carga operativa, generación de informes |
+| Consultoría estratégica | Diseño de soluciones basadas en datos | Planificación, expansión, optimización de recursos |
 
-<CodeBlock
-    marginBottom="16"
-    highlight="6"
-    codes={[
-  {
-    code:
-`const routes = {
-    '/':        true,
-    '/about':   true,
-    '/work':    true,
-    '/blog':    true,
-    '/gallery': false,
-};`,
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+---
 
-The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+## 🌐 Nuestra filosofía
 
-## Add new pages
+> “Tu brújula en el océano de datos” no es solo un lema: es nuestro compromiso.  
+Guiamos a nuestros clientes desde la incertidumbre hasta la claridad, con soluciones basadas en evidencia, visualmente potentes y técnicamente sólidas.
 
-When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+---
 
-<CodeBlock
-    marginBottom="16"
-    highlight="6"
-    codes={[
-  {
-    code:
-`const routes = {
-    '/':        true,
-    '/about':   true,
-    '/work':    true,
-    '/blog':    true,
-    '/gallery': false,
-    '/music': true,
-};`,
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+## 📊 Tecnologías que usamos
 
-The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.
+- Python (Pandas, Numpy, Scikit-learn, Seaborn, Matplotlib)  
+- Power BI y Tableau  
+- SQL y bases de datos relacionales  
+- Markdown y documentación técnica  
+- APIs para integración de datos externos  
+
+---
+
+## 📍 ¿Dónde aplicamos nuestros proyectos?
+
+- 🌿 Agroindustria y sostenibilidad  
+- 🏥 Salud pública y epidemiología  
+- 🏢 Logística y distribución  
+- 🎓 Educación y evaluación institucional  
+- 🏗️ Construcción y planificación territorial  
+
+---
+
+## 📜 Licencia
+
+Este contenido es un ejercicio académico.  
+🔒 Licencia: Uso institucional y educativo. Requiere atribución si se reutiliza en otros contextos.
