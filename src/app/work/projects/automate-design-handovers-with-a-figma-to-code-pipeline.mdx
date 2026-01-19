@@ -1,44 +1,86 @@
 ---
-title: "Automating Design Handovers with a Figma to Code Pipeline"
-publishedAt: "2024-04-01"
-summary: "Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think."
+title: "Expasión estatégica Biogenesis"
+publishedAt: "2025-11-11"
+summary: "Un análisis estratégico de expansión para Biogenesys en el contexto postpandemia del COVID-19, evaluando oportunidades de crecimiento en Latinoamérica, evaluando oportunidades de crecimiento en Latinoamérica con base en datos sanitarios, demográficos y ambientales."
 images:
   - "/images/projects/project-01/cover-02.jpg"
   - "/images/projects/project-01/image-03.jpg"
 team:
-  - name: "John Doe"
-    role: "Software Engineer"
+  - name: "Adrian Flórez"
+    role: "Data Analytics"
     avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
-link: "https://once-ui.com/"
+    linkedIn: "https://www.linkedin.com/in/adrianflorez/"
+link: "https://github.com/AFFlorezHerrera/"
 ---
 
-## Overview
+# 🧪 Expansión Estratégica de BIOGENESYS 
 
-In this project, I focused on automating the often tedious design handover process. The goal was to create a pipeline that converts Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduced the time spent on translating design assets into code, while maintaining design consistency across the product.
+## 📌 Descripción del Proyecto
+Este proyecto analiza la **expansión estratégica de Biogenesys** en Latinoamérica en el contexto postpandemia del COVID-19.  
+Se emplearon herramientas de **Data Analytics** en Python (Pandas, Numpy, Seaborn, Matplotlib) y su integración con **Power BI** para evaluar indicadores sanitarios, demográficos y ambientales.  
 
-## Key Features
-
-- **Figma Plugin Integration**: Developed a custom Figma plugin that extracts design tokens such as colors, typography, and spacing values, and exports them in a format compatible with our codebase.
-- **Code Generation**: Integrated an automated process that translates Figma components into React code using a combination of design tokens and pre-built component templates. This allowed developers to focus more on logic and less on repetitive UI coding.
-- **Continuous Sync**: Established a CI/CD pipeline that continuously synchronizes design changes from Figma to the codebase, ensuring design updates are reflected instantly without manual intervention.
-- **Scalable Design System**: Leveraged a design system that remains the single source of truth for both designers and developers, making it easy to maintain consistency even as the product evolves.
-
-## Technologies Used
-
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
-
-## Challenges and Learnings
-
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
-
-## Outcome
-
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
+El objetivo principal fue identificar **países con mayor potencial** para la instalación de laboratorios y centros logísticos, considerando factores como incidencia, mortalidad, condiciones climáticas y desarrollo socioeconómico.  
 
 ---
 
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+## 🎯 Objetivos
+- Analizar datos de COVID-19 en países de Latinoamérica (Argentina, Brasil, Chile, Colombia, México, Perú).  
+- Identificar tendencias temporales y geográficas.  
+- Evaluar correlaciones entre variables sanitarias, demográficas y ambientales.  
+- Proponer países estratégicos para la expansión de Biogenesys.  
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+- **Python** 🐍  
+  - Pandas  
+  - Numpy  
+  - Seaborn  
+  - Matplotlib  
+- **Power BI** 📊  
+- **Markdown** ✍️ para documentación  
+
+---
+
+## 📂 Dataset
+Columnas principales utilizadas:
+- `Date`, `country_name`, `population`, `cumulative_confirmed`, `cumulative_deceased`, `human_development_index`, `average_temperature_celsius`, entre otras.  
+
+> 🔎 Se descartaron columnas con más del 60% de datos nulos (ej. densidad poblacional, dosis de vacunas administradas, médicos, enfermeras, etc.).
+
+---
+
+## 📈 Principales Hallazgos
+- 🇨🇴 **Colombia**: Mayor incidencia acumulada por cada 100.000 habitantes.  
+- 🇵🇪 **Perú**: Mayor número de muertes acumuladas.  
+- 🇲🇽 **México**: Alta mortalidad y casos acumulados, con políticas que lograron reducir contagios en 2021.  
+- 🌡️ La **temperatura promedio** mostró correlaciones débiles con la incidencia, sugiriendo que el clima no es un factor determinante.  
+- 📊 El **Índice de Desarrollo Humano** se relaciona con menor mortalidad relativa, reflejando acceso desigual a sistemas de salud.  
+
+---
+
+## 📊 Visualizaciones
+Algunas gráficas incluidas:
+- Histogramas de incidencia acumulada.  
+- Boxplots de temperatura por país.  
+- Series temporales de casos y muertes.  
+- Matriz de correlación entre indicadores demográficos y sanitarios.  
+- Dashboards interactivos en Power BI.  
+
+---
+
+## 🚀 Conclusiones
+- **Colombia, Perú y México** son los países más estratégicos para iniciar la expansión de Biogenesys.  
+- La **normalización de datos** permitió comparar tendencias entre países con poblaciones muy diferentes.  
+- La coordinación regional es clave para enfrentar futuras pandemias.  
+
+---
+
+## 📬 Autor
+👤 **Adrian Felipe Flórez Herrera**  
+✉️ felo990@gmail.com  
+
+---
+
+## 🏷️ Licencia
+Este proyecto es de carácter académico y puede ser utilizado como referencia para estudios de **Data Analytics** y proyectos de expansión estratégica en el sector salud.  
